@@ -12,6 +12,7 @@
 [class*="col-"] {
     color: #fff;
     background-color: #2f6bf3;
+    min-height: 30px;
     text-align: center;
     border: solid 1px #fff;
     padding: 5px;
