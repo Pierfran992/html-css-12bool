@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    margin-bottom: 20px;
+}
+
+[class*="col-"] {
+    color: #fff;
+    background-color: #2f6bf3;
+    text-align: center;
+    border: solid 1px #fff;
+    padding: 5px;
+}
+
+[class*="col-"] [class*="col-"] {
+    background-color: #64db6e;
+    text-align: center;
+    border: none;
+    border-left: solid 1px #2f6bf3;
+}
